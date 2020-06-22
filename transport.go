@@ -5,7 +5,7 @@ import (
 	"net"
 
 	mux "github.com/libp2p/go-libp2p-core/mux"
-	yamux "github.com/libp2p/go-yamux"
+	yamux "github.com/torusresearch/go-yamux"
 )
 
 var DefaultTransport *Transport

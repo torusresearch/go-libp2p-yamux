@@ -2,7 +2,7 @@ package sm_yamux
 
 import (
 	"github.com/libp2p/go-libp2p-core/mux"
-	"github.com/libp2p/go-yamux"
+	"github.com/torusresearch/go-yamux"
 )
 
 // conn implements mux.MuxedConn over yamux.Session.
